@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "tongqqiu",
-    "repositoryName": "tongqqiu.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"tongqqiu","repositoryName":"tongqqiu.github.io","branch":"master"},"site":{"title":"Tongqing's Blog","description":"Big Data, Distributed System, TechOps, Clojure","url":"https://tongqqiu.github.io"},"socialnetwork":{"email":"tongqing.qiu@gmail.com","linkedin":""},"theme":{"name":"Casper","url":"//tongqqiu.github.io/themes/Casper"}}
