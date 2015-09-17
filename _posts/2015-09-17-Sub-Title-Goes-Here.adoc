@@ -1,5 +1,6 @@
 = First Blog
 :hp-tags: Example
+:hp-alt-title: Sub Title Goes Here
 
 == Section One
 
