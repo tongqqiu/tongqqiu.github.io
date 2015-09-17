@@ -3,6 +3,8 @@
 Welcome to the first *blog*!
 
 
+
+[[app-listing]]
 [source,ruby]
 .app.rb
 ----
