@@ -1,4 +1,7 @@
 = First Blog
+:hp-tags: Example
+
+== Section One
 
 Welcome to the first *blog*!
 
