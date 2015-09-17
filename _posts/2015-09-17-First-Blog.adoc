@@ -1,3 +1,14 @@
 = First Blog
 
 Welcome to the first *blog*!
+
+[[app-listing]]
+[source,ruby]
+.app.rb
+----
+require 'sinatra'
+
+get '/hi' do
+  "Hello World!"
+end
+----
