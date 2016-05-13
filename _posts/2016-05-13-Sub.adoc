@@ -11,7 +11,8 @@ Cassandra COPY is the simple and efficient data migration tool.
 [source,sql]
 .app.cql
 ----
-CREATE KEYSPACE Performance WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+CREATE KEYSPACE 
+  Performance WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
 
 use performance;
 
