@@ -1,0 +1,25 @@
+= Cassandra COPY example
+:hp-tags: Cassandra
+:hp-alt-title: Sub
+
+== COPY: 
+
+Cassandra COPY is the simple and efficient data migration tool. 
+
+
+
+[source,sql]
+.app.cql
+----
+CREATE KEYSPACE Performance WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+
+use performance;
+
+CREATE TABLE airplanes (
+  name text PRIMARY KEY,
+  manufacturer ascii,
+  year int,
+  mach float
+);
+
+COPY airplanes (name, manufacturer, year, mach) FROM 'temp.csv';
